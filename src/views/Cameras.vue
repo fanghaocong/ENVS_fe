@@ -10,11 +10,9 @@
   </div>
 </template>
 
-<script lang="ts">
-import { Vue } from "vue-property-decorator";
+<script>
 import CameraCard from "@/components/CameraCard.vue";
 import { CameraAPI } from "@/network/cameraAPI";
-export class Cameras extends Vue {}
 export default {
   name: 'Cameras',
   data() {
